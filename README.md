@@ -1,4 +1,4 @@
-# Veri Yönetimi ve Dosya Yapıları 2022 Bahar Dönemi
+# Veri Yönetimi ve Dosya Yapıları 2021-2022 Bahar Dönemi
 
 ---
 
