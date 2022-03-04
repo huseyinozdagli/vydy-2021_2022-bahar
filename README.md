@@ -69,3 +69,6 @@ cout << *as2;
 37 sayisi asal mi: 1
 37 sayisinin asal carpanlari: 37
 ```
+
+![Screenshot_1](https://user-images.githubusercontent.com/55535970/156786578-d5495152-531e-4268-b545-e54b5326b4f6.png)
+
