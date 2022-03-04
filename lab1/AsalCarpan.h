@@ -28,11 +28,12 @@ public:
 		Sayi carpan(2);
 		int bolum = sayi.getDeger();
 		while (bolum != 1) {
-			while (bolum % carpan.getDeger() == 0 && carpan.asalMi()) {
-				bolum = bolum / carpan.getDeger();
+			int x = carpan.getDeger();
+			while ((bolum % x) == 0 && carpan.asalMi()) {
+				bolum = bolum / x;
 				carpanSayisi++;
 			}
-			carpan.setDeger(carpan.getDeger() + 1);
+			carpan.setDeger(++x);
 		}
 	}
 
@@ -42,11 +43,12 @@ public:
 		int bolum = sayi.getDeger();
 		int i = 0;
 		while (bolum != 1) {
-			while (bolum % carpan.getDeger() == 0 && carpan.asalMi()) {
-				bolum = bolum / carpan.getDeger();
-				carpanlar[i++] = new Sayi(carpan.getDeger());
+			int x = carpan.getDeger();
+			while ((bolum % x == 0) && carpan.asalMi()) {
+				bolum = bolum / x;
+				carpanlar[i++] = new Sayi(x);
 			}
-			carpan.setDeger(carpan.getDeger() + 1);
+			carpan.setDeger(x + 1);
 		}
 	}
 

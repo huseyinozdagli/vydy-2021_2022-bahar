@@ -32,7 +32,7 @@ public:
 		if (deger == 0 || deger == 1) {
 			asalmi = false;
 		}
-		for (int i = 2; i <= deger;i++) {
+		for (int i = 2; i < deger;i++) {
 			if (deger % i == 0) {
 				asalmi = false;
 				break;
